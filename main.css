@@ -1,0 +1,43 @@
+/*] Center everything [*/
+main {
+  margin: 0 auto;
+  max-width: 280px;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+}
+/*] Style the icon [*/
+.icon {
+  color: rgb(51, 137, 236);
+}
+/*] Style the button [*/
+.pure-button:active {
+  transform: scale(0.96, 0.96);
+  color: aliceblue;
+}
+.pure-button:focus {
+  color: aliceblue;
+  background: rgb(28, 184, 65);
+
+  animation: roll 400ms ease-in-out;
+}
+/*] Animation [*/
+@keyframes roll {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  75% {
+    transform: rotate(18deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
