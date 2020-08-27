@@ -22,6 +22,7 @@ main {
   color: aliceblue;
   background: rgb(28, 184, 65);
 }
+/*] Style the paragraph [*/
 p {
   max-width: 400px;
 }
