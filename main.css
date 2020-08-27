@@ -1,15 +1,13 @@
 /*] Center everything [*/
+body {
+  display: grid;
+  max-width: 800px;
+  justify-items: center;
+  font-family: "Open Sans", sans-serif;
+}
 main {
-  margin: 0 auto;
-  max-width: 280px;
-  min-height: 100vh;
-
   display: flex;
   align-items: center;
-  justify-content: space-around;
-
-  font-family: "Open Sans", sans-serif;
-  background: #fff;
 }
 /*] Style the icon [*/
 .icon {
@@ -23,4 +21,11 @@ main {
 .pure-button:focus {
   color: aliceblue;
   background: rgb(28, 184, 65);
+}
+p {
+  max-width: 400px;
+}
+header {
+  display: block;
+  padding-top: 5em;
 }
