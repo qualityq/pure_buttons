@@ -16,7 +16,7 @@ main {
   color: rgb(51, 137, 236);
 }
 /*] Style the button [*/
-.pure-button:focus {
+.pure-button:active {
   color: aliceblue;
   background: rgb(28, 184, 65);
 }
