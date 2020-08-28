@@ -1,5 +1,6 @@
 /*] Center everything [*/
 body {
+  padding: 1em;
   max-width: 800px;
   justify-items: center;
   font-family: "Open Sans", sans-serif;
@@ -15,6 +16,10 @@ body {
 .pure-button:active {
   color: aliceblue;
   background: rgb(37, 101, 197);
+}
+.pure-button:hover {
+  color: aliceblue;
+  background: rgb(64, 138, 248);
 }
 /*] Style the paragraph [*/
 p {
