@@ -1,6 +1,5 @@
 /*] Center everything [*/
 body {
-  display: grid;
   max-width: 800px;
   justify-items: center;
   font-family: "Open Sans", sans-serif;
@@ -8,8 +7,9 @@ body {
   margin: 0 auto;
 }
 /*] Style the icon [*/
-.icon {
+.main_section-icon {
   color: rgb(51, 137, 236);
+  padding-left: 1em;
 }
 /*] Style the button [*/
 .pure-button:active {
@@ -20,12 +20,19 @@ body {
 p {
   max-width: 400px;
 }
+/*] Style everything in header [*/
 header {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   padding-top: 5em;
 }
 /* Align icon with button */
-.buttons {
+.main_section-buttons {
   display: flex;
   align-items: center;
+}
+.main_section {
+  display: inline-block;
 }
