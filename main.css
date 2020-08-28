@@ -7,10 +7,6 @@ body {
   /* This centers all */
   margin: 0 auto;
 }
-main {
-  display: flex;
-  align-items: center;
-}
 /*] Style the icon [*/
 .icon {
   color: rgb(51, 137, 236);
@@ -27,4 +23,9 @@ p {
 header {
   display: block;
   padding-top: 5em;
+}
+/* Align icon with button */
+.buttons {
+  display: flex;
+  align-items: center;
 }
