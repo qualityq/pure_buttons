@@ -10,7 +10,16 @@ body {
 /*] Style the icon [*/
 .main_section-icon {
   color: rgb(51, 137, 236);
-  padding-left: 1em;
+  padding-left: 0.5em;
+  animation: move 2s infinite ease-in-out;
+}
+@keyframes move {
+  0% {
+    transform: translate(1px);
+  }
+  50% {
+    transform: translate(5px);
+  }
 }
 /*] Style the button [*/
 .pure-button:active {
