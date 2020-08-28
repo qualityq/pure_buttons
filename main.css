@@ -14,7 +14,7 @@ body {
 /*] Style the button [*/
 .pure-button:active {
   color: aliceblue;
-  background: rgb(28, 184, 65);
+  background: rgb(37, 101, 197);
 }
 /*] Style the paragraph [*/
 p {
@@ -32,6 +32,7 @@ header {
 .main_section-buttons {
   display: flex;
   align-items: center;
+  padding-top: 0.5em;
 }
 .main_section {
   display: inline-block;
