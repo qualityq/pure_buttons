@@ -4,6 +4,8 @@ body {
   max-width: 800px;
   justify-items: center;
   font-family: "Open Sans", sans-serif;
+  /* This centers all */
+  margin: 0 auto;
 }
 main {
   display: flex;
