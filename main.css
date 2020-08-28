@@ -10,12 +10,12 @@ body {
 }
 .main_section-paragraphs {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+
   flex-wrap: wrap;
   flex-direction: column;
 
-  background-color: cornsilk;
+  background-color: gainsboro;
   padding: 1em;
 }
 /*] Style the icon [*/
