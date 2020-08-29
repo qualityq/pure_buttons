@@ -16,19 +16,14 @@ body {
   align-items: flex-start;
 }
 .main_section-paragraphs {
-  display: flex;
-  align-items: flex-start;
-
-  flex-wrap: wrap;
-  flex-direction: column;
-
+  display: inline-table;
   background-color: gainsboro;
   padding: 1em;
 }
 /*] Style the icon [*/
 .main_section-icon {
   color: rgb(51, 137, 236);
-  padding-left: 0.5em;
+  padding-left: 1em;
   animation: move 2s infinite ease-in-out;
 }
 @keyframes move {
@@ -52,5 +47,5 @@ body {
 .main_section-buttons {
   display: flex;
   align-items: center;
-  padding-top: 0.5em;
+  padding-top: 1em;
 }
