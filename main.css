@@ -27,6 +27,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 2rem;
 }
 .main_section-paragraphs {
   display: inline-table;
@@ -73,6 +74,7 @@ h1 {
   left: 0;
   bottom: 0;
   width: 100%;
+
   background-color: gainsboro;
   font-size: 0.7rem;
 
