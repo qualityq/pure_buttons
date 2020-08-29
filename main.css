@@ -10,6 +10,9 @@ body {
   -webkit-user-select: none; /* Chrome, Safari, and Opera */
   -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
 }
+h5 {
+  font-size: 0.6rem;
+}
 .main_section {
   display: flex;
   justify-content: space-evenly;
@@ -34,6 +37,10 @@ body {
     transform: translate(5px);
   }
 }
+.main_section-icon--footer {
+  height: 14px;
+  width: 14px;
+}
 /*] Style the button [*/
 .pure-button:active {
   color: aliceblue;
@@ -48,4 +55,17 @@ body {
   display: flex;
   align-items: center;
   padding-top: 1em;
+}
+/* Styling the footer */
+.main_footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gainsboro;
+  font-size: 0.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
