@@ -13,6 +13,9 @@ body {
 h5 {
   font-size: 0.6rem;
 }
+h1 {
+  font-family: 'Russo One', sans-serif;
+}
 .main_section {
   display: flex;
   justify-content: space-evenly;
@@ -22,11 +25,13 @@ h5 {
   display: inline-table;
   background-color: gainsboro;
   padding: 1em;
+
+  font-size: 0.98rem;
 }
 /*] Style the icon [*/
 .main_section-icon {
   color: rgb(51, 137, 236);
-  padding-left: 1em;
+  padding-left: 0.2em;
   animation: move 2s infinite ease-in-out;
 }
 @keyframes move {
