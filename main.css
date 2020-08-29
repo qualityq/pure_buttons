@@ -19,6 +19,11 @@ h5 {
 h1 {
   font-family: "Russo One", sans-serif;
 }
+.main_text {
+  display: block;
+  text-align: center;
+  padding-bottom: 2rem;
+}
 .main_section-paragraphs--heading {
   display: flex;
   align-items: center;
