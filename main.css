@@ -48,6 +48,9 @@ h1 {
   color: rgb(51, 137, 236);
   padding-left: 0.2em;
   animation: move 2s infinite ease-in-out;
+
+  height: 18px;
+  width: 18px;
 }
 @keyframes move {
   0% {
