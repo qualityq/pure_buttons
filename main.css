@@ -40,6 +40,9 @@ h1 {
   padding: 1em;
   font-size: 0.98rem;
 }
+.main_section-paragraph--background {
+  background-color: rgb(211, 211, 211);
+}
 /*] Style the icon [*/
 .main_section-icon {
   color: rgb(51, 137, 236);
@@ -55,8 +58,8 @@ h1 {
   }
 }
 .main_section-icon--footer {
-  height: 12px;
-  width: 12px;
+  height: 9px;
+  width: 9px;
 }
 /*] Style the button [*/
 .pure-button:active {
