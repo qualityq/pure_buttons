@@ -73,6 +73,10 @@ h1 {
   color: aliceblue;
   background: rgb(64, 138, 248);
 }
+.pure-button:focus {
+  color: aliceblue;
+  background: rgb(39, 211, 76);
+}
 /* Align icon with button */
 .main_section-buttons {
   display: flex;
